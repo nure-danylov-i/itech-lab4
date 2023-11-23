@@ -8,9 +8,10 @@ if (isset($_POST['name']))
 ?>
 <html>
 <head>
-<title>Лабораторна робота №2</title>
+<title>Лабораторна робота №4</title>
 </head>
 <body>
+<p>Перша сторінка</p>
 <?php
 echo "<p>Ім'я в сесії: {$_SESSION['name']}<br>";
 echo "Ім'я в cookie: {$_COOKIE['name']}</p>";
